@@ -1,10 +1,4 @@
 
-/* body{
- background: url("/panda.avif");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
 
 body {
   background: url("/panda.avif") no-repeat center;
@@ -48,7 +42,6 @@ body {
   display: flex;
   gap: 15px;
   flex-direction: column;
-  transform: translateX(150px);
 }
 
 .right button {
@@ -103,7 +96,7 @@ body {
    transition: transform 0.2s ease, background 0.2s ease; 
 }
 .right button:hover {
-  background-color: #57575c;
+  background-color: transparent;
   color: white;
   transition: 0.2s ease;
   transform: scale(1.08);
