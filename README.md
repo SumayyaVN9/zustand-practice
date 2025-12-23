@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # zustand-practice
  Zustand is a state management library for React (and Next.js).
  
