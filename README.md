@@ -18,4 +18,8 @@
 ## 🧠 Simple idea
 
 Think of Zustand like a small global store 🗃️
+
 Any component can read or update data directly.
+
+## 🔗 **Live URL:**  
+👉 https://panda-friends.vercel.app/
