@@ -1,0 +1,62 @@
+
+body{
+ background: url("/panda.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 40px;
+  gap: 60px;
+
+ 
+}
+
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #64646a;
+
+  /* background: rgba(140, 49, 49, 0.6); */
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+}
+
+
+/* RIGHT SIDE */
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #55555a;
+  justify-content: center;
+  margin-left: 90%;
+}
+
+.right h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.right button {
+  margin: 6px 0;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20%;
+  border-radius: 8px;
+  border: none;
+  background: #77777e;
+  color: white;
+}
+
+.right button:hover {
+  background: #55555a;
+}
