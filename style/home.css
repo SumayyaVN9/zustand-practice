@@ -97,7 +97,7 @@ body {
 }
 .right button:hover {
   background-color: transparent;
-  color: white;
+  color: #55555a;
   transition: 0.2s ease;
   transform: scale(1.08);
 }
